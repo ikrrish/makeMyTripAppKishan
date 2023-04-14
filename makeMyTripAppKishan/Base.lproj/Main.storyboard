@@ -233,7 +233,7 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="WqM-k2-FFx" kind="push" id="D87-Pj-zC6"/>
+                                    <segue destination="WqM-k2-FFx" kind="push" id="3tL-5I-Toh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have a " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPI-6k-lWl">
@@ -291,11 +291,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Make-My-Trip-Logo-PNG" translatesAutoresizingMaskIntoConstraints="NO" id="C0p-BZ-ZM4">
-                                <rect key="frame" x="137" y="44" width="140" height="31"/>
+                                <rect key="frame" x="137" y="45" width="140" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kip-pL-G3x">
-                                <rect key="frame" x="340" y="37" width="54" height="44"/>
+                                <rect key="frame" x="340" y="44" width="54" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -305,8 +305,60 @@
                                     </preferredSymbolConfiguration>
                                 </buttonConfiguration>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HD-wallpaper-white-color-white" translatesAutoresizingMaskIntoConstraints="NO" id="bgu-ye-W1g">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2312678" translatesAutoresizingMaskIntoConstraints="NO" id="bgu-ye-W1g">
                                 <rect key="frame" x="13" y="202" width="389" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="travelling" translatesAutoresizingMaskIntoConstraints="NO" id="rv5-x5-HiJ">
+                                <rect key="frame" x="50" y="216" width="42" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hotel" translatesAutoresizingMaskIntoConstraints="NO" id="8h6-w9-qKF">
+                                <rect key="frame" x="137" y="216" width="42" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="public-transport" translatesAutoresizingMaskIntoConstraints="NO" id="7iZ-wW-uly">
+                                <rect key="frame" x="227" y="216" width="42" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="summer-holidays" translatesAutoresizingMaskIntoConstraints="NO" id="KVr-mU-tU0">
+                                <rect key="frame" x="320" y="216" width="42" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2312678" translatesAutoresizingMaskIntoConstraints="NO" id="aPQ-iZ-qBm">
+                                <rect key="frame" x="13" y="327" width="389" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="FvH-KD-6qb">
+                                <rect key="frame" x="41" y="340" width="42" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="villa" translatesAutoresizingMaskIntoConstraints="NO" id="fbx-pK-PUu">
+                                <rect key="frame" x="137" y="340" width="42" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taxi" translatesAutoresizingMaskIntoConstraints="NO" id="bi2-Vt-MfT">
+                                <rect key="frame" x="227" y="340" width="42" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="insurance" translatesAutoresizingMaskIntoConstraints="NO" id="FBm-ZK-diA">
+                                <rect key="frame" x="320" y="340" width="42" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gift-card" translatesAutoresizingMaskIntoConstraints="NO" id="ywA-fn-LF0">
+                                <rect key="frame" x="41" y="440" width="42" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="park" translatesAutoresizingMaskIntoConstraints="NO" id="aYe-ee-OpC">
+                                <rect key="frame" x="134" y="440" width="42" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="train-ticket" translatesAutoresizingMaskIntoConstraints="NO" id="hNN-N3-zvK">
+                                <rect key="frame" x="227" y="440" width="42" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exchange" translatesAutoresizingMaskIntoConstraints="NO" id="Dod-St-HsN">
+                                <rect key="frame" x="320" y="440" width="42" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -316,6 +368,7 @@
                     <navigationItem key="navigationItem" id="kzf-r1-KLL"/>
                     <connections>
                         <outlet property="i1" destination="bgu-ye-W1g" id="Kd7-k9-LiI"/>
+                        <outlet property="i2" destination="aPQ-iZ-qBm" id="rRa-EI-1px"/>
                     </connections>
                 </viewController>
             </objects>
@@ -343,12 +396,23 @@
     <resources>
         <image name="2312678" width="1080" height="1920"/>
         <image name="94d95b5a58596e7f2668df15ddc2ce27" width="450" height="900"/>
-        <image name="HD-wallpaper-white-color-white" width="800" height="1203"/>
         <image name="Make-My-Trip-Logo-PNG" width="1086" height="342"/>
         <image name="c019f2454335c475411b3848f99b7229" width="450" height="900"/>
+        <image name="car" width="32" height="32"/>
+        <image name="exchange" width="32" height="32"/>
+        <image name="gift-card" width="32" height="32"/>
         <image name="google" width="24" height="24"/>
+        <image name="hotel" width="32" height="32"/>
+        <image name="insurance" width="32" height="32"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="park" width="32" height="32"/>
         <image name="photo-1465146344425-f00d5f5c8f07" width="500" height="331"/>
+        <image name="public-transport" width="32" height="32"/>
+        <image name="summer-holidays" width="32" height="32"/>
+        <image name="taxi" width="32" height="32"/>
+        <image name="train-ticket" width="32" height="32"/>
+        <image name="travelling" width="32" height="32"/>
+        <image name="villa" width="32" height="32"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
