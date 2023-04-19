@@ -10,8 +10,8 @@ import UIKit
 class ViewController3: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     
-    var array1 = ["Trending", "Bank Offer", "Flights", "Hotels", "Bus", "Cabs", "Holidays"]
-    var array2 = [""]
+    var array1 = ["Trending", "Bank Offer", "Flights", "Hotels", "Rails"]
+    var array2 = [1,2,3,4,5]
     @IBOutlet weak var i1: UIImageView!
     @IBOutlet weak var i2: UIImageView!
     @IBOutlet weak var cv1: UICollectionView!
@@ -31,27 +31,34 @@ class ViewController3: UIViewController, UICollectionViewDelegate, UICollectionV
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        if collectionView == self.cv1{
+            
         let cell = cv1.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
         cell.label1.text = "\(array1[indexPath.row])"
+            cell.layer.cornerRadius = 10
+            cell.layer.masksToBounds = true
         return cell
+            
+        }
+        let cells = cv2.dequeueReusableCell(withReuseIdentifier: "cells", for: indexPath) as! CollectionViewCell2
+        cells.img.image = UIImage(named: array2[indexPath.row].description)
+        cells.layer.cornerRadius = 10
+        cells.layer.masksToBounds = true
+        return cells
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 125, height: 36)
-    }
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if collectionView == self.cv1{
+            return CGSize(width: 130, height: 39)
+        }
+        return CGSize(width: 191, height: 122)
         
     }
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return array2.count
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if collectionView == self.cv1{
+        let cells = cv2.dequeueReusableCell(withReuseIdentifier: "cells", for: indexPath) as! CollectionViewCell2
+        cells.img.image = UIImage(named: array2[indexPath.row].description)
+        }
+        cv2.reloadData()
     }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = cv1.dequeueReusableCell(withReuseIdentifier: "cells", for: indexPath) as! CollectionViewCell
-        cell.label1.text = "\(array1[indexPath.row])"
-        return cell
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 125, height: 36)
 }
