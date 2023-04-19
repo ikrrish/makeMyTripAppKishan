@@ -59,6 +59,5 @@ class ViewController3: UIViewController, UICollectionViewDelegate, UICollectionV
         let cells = cv2.dequeueReusableCell(withReuseIdentifier: "cells", for: indexPath) as! CollectionViewCell2
         cells.img.image = UIImage(named: array2[indexPath.row].description)
         }
-        cv2.reloadData()
     }
 }

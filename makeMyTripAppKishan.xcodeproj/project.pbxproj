@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D334B5AC29F073F50087F9B0 /* TripMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = D334B5AB29F073F50087F9B0 /* TripMoney.swift */; };
+		D334B5AE29F0742F0087F9B0 /* CollectionViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D334B5AD29F0742F0087F9B0 /* CollectionViewCell3.swift */; };
 		D371FD3929E7D68000F65583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371FD3829E7D68000F65583 /* AppDelegate.swift */; };
 		D371FD3B29E7D68000F65583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371FD3A29E7D68000F65583 /* SceneDelegate.swift */; };
 		D371FD3D29E7D68000F65583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371FD3C29E7D68000F65583 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D334B5AB29F073F50087F9B0 /* TripMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMoney.swift; sourceTree = "<group>"; };
+		D334B5AD29F0742F0087F9B0 /* CollectionViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3.swift; sourceTree = "<group>"; };
 		D371FD3529E7D68000F65583 /* makeMyTripAppKishan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = makeMyTripAppKishan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D371FD3829E7D68000F65583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D371FD3A29E7D68000F65583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 				D371FD3A29E7D68000F65583 /* SceneDelegate.swift */,
 				D371FD3C29E7D68000F65583 /* ViewController.swift */,
 				D371FD3E29E7D68000F65583 /* Main.storyboard */,
+				D334B5AD29F0742F0087F9B0 /* CollectionViewCell3.swift */,
+				D334B5AB29F073F50087F9B0 /* TripMoney.swift */,
 				D3AADA6329EDD23400D3522E /* CollectionViewCell2.swift */,
 				D3AADA6129EDC2AC00D3522E /* CollectionViewCell.swift */,
 				D37646E829E929660024A7B9 /* ViewController3.swift */,
@@ -151,8 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D37646E929E929660024A7B9 /* ViewController3.swift in Sources */,
+				D334B5AC29F073F50087F9B0 /* TripMoney.swift in Sources */,
 				D371FD3D29E7D68000F65583 /* ViewController.swift in Sources */,
 				D3AADA6229EDC2AC00D3522E /* CollectionViewCell.swift in Sources */,
+				D334B5AE29F0742F0087F9B0 /* CollectionViewCell3.swift in Sources */,
 				D3AADA6429EDD23400D3522E /* CollectionViewCell2.swift in Sources */,
 				D37646E729E920530024A7B9 /* ViewController2.swift in Sources */,
 				D371FD3929E7D68000F65583 /* AppDelegate.swift in Sources */,
