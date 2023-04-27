@@ -21,6 +21,7 @@
 		D38F0D9629F3033F00EF6E0F /* Trips.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F0D9529F3033F00EF6E0F /* Trips.swift */; };
 		D3AADA6229EDC2AC00D3522E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AADA6129EDC2AC00D3522E /* CollectionViewCell.swift */; };
 		D3AADA6429EDD23400D3522E /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AADA6329EDD23400D3522E /* CollectionViewCell2.swift */; };
+		D3AB158A29FA55660083DC9B /* wheretogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB158929FA55660083DC9B /* wheretogo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		D38F0D9529F3033F00EF6E0F /* Trips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trips.swift; sourceTree = "<group>"; };
 		D3AADA6129EDC2AC00D3522E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		D3AADA6329EDD23400D3522E /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
+		D3AB158929FA55660083DC9B /* wheretogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wheretogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				D371FD3A29E7D68000F65583 /* SceneDelegate.swift */,
 				D371FD3C29E7D68000F65583 /* ViewController.swift */,
 				D371FD3E29E7D68000F65583 /* Main.storyboard */,
+				D3AB158929FA55660083DC9B /* wheretogo.swift */,
 				D38F0D9529F3033F00EF6E0F /* Trips.swift */,
 				D38F0D9329F3003A00EF6E0F /* Error.swift */,
 				D334B5AD29F0742F0087F9B0 /* CollectionViewCell3.swift */,
@@ -172,6 +175,7 @@
 				D37646E729E920530024A7B9 /* ViewController2.swift in Sources */,
 				D371FD3929E7D68000F65583 /* AppDelegate.swift in Sources */,
 				D38F0D9429F3003A00EF6E0F /* Error.swift in Sources */,
+				D3AB158A29FA55660083DC9B /* wheretogo.swift in Sources */,
 				D371FD3B29E7D68000F65583 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
