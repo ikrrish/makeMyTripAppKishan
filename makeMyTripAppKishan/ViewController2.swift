@@ -22,6 +22,11 @@ class ViewController2: UIViewController {
         continueButton.layer.cornerRadius = 20
         continueButton.layer.masksToBounds = true
     }
-
-
+    @IBAction func continueButtonAction(_ sender: Any) {
+        navigate()
+    }
+    func navigate(){
+        let navigate = storyboard?.instantiateViewController(withIdentifier: "tabbar") as! tabbar
+        navigationController?.pushViewController(navigate, animated: true)
+    }
 }

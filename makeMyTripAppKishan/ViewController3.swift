@@ -60,4 +60,11 @@ class ViewController3: UIViewController, UICollectionViewDelegate, UICollectionV
         cells.img.image = UIImage(named: array2[indexPath.row].description)
         }
     }
+    @IBAction func allButtonAction(_ sender: Any) {
+        buttonNavigate()
+    }
+    func buttonNavigate(){
+        let navigate = storyboard?.instantiateViewController(withIdentifier: "Trips") as! Trips
+        navigationController?.pushViewController(navigate, animated: true)
+    }
 }

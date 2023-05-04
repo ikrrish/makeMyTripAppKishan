@@ -30,5 +30,21 @@ class ViewController: UIViewController {
         
     }
 
+    @IBAction func englishButtonAction(_ sender: Any) {
+        navigate()
+    }
+    @IBAction func hindiButtonNavigation(_ sender: Any) {
+        navigate()
+    }
+    @IBAction func gujaratiButtonNavigation(_ sender: Any) {
+        navigate()
+    }
+    @IBAction func skipButtonNavigation(_ sender: Any) {
+        navigate()
+    }
+    func navigate(){
+        let navigate = storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
+        navigationController?.pushViewController(navigate, animated: true)
+    }
 }
 
