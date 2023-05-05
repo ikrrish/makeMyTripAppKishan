@@ -27,13 +27,20 @@ class wheretogo: UIViewController, UICollectionViewDelegate, UICollectionViewDel
         if collectionView == self.cv{
             let cell = cv.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)  as! CollectionViewCell4
         cell.image.image = UIImage(named: arr[indexPath.row].description)
-            
         return cell
         }
         let cells = cv2.dequeueReusableCell(withReuseIdentifier: "cells", for: indexPath)  as! CollectionViewCell5
+        cells.image2.layer.cornerRadius = 70
+        cells.image2.layer.masksToBounds = true
+        
     cells.image2.image = UIImage(named: arr1[indexPath.row].description)
         
     return cells
     }
-    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        if collectionView == self.cv{
+        return CGSize (width: 267, height: 151)
+        }
+        return CGSize (width: 140, height: 140)
+    }
 }
