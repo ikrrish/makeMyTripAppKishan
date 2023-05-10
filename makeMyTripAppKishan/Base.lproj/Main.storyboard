@@ -519,6 +519,10 @@
                     <navigationItem key="navigationItem" id="pSf-dc-Xum"/>
                     <connections>
                         <outlet property="cv1" destination="QzC-Mk-jJo" id="QHU-Yc-IE9"/>
+                        <outlet property="img" destination="Jhj-lE-dcR" id="gMe-Th-SMz"/>
+                        <outlet property="img2" destination="KVs-BM-bP2" id="hCO-Ev-b7i"/>
+                        <outlet property="img3" destination="njF-6k-og1" id="0Ck-iD-gti"/>
+                        <outlet property="img4" destination="ZXQ-qw-mw1" id="c4y-dX-scu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CfB-g0-hgE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -889,6 +893,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="Zl8-39-Lr3"/>
+                    <connections>
+                        <outlet property="i1" destination="TtB-B4-1xB" id="Ryp-wE-hqv"/>
+                        <outlet property="i2" destination="g3b-iQ-34g" id="JNg-Si-A5n"/>
+                        <outlet property="i3" destination="e8a-Vd-Ri9" id="Ctd-DK-JRW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nkb-1H-0if" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1091,6 +1100,10 @@
                     <connections>
                         <outlet property="cv" destination="4s8-dA-Fhn" id="Jyi-zX-lYB"/>
                         <outlet property="cv2" destination="zPJ-LH-jwq" id="qeT-Dw-ZLK"/>
+                        <outlet property="i1" destination="rWE-8r-bNL" id="CuS-qy-4li"/>
+                        <outlet property="i2" destination="efo-W0-1bb" id="5uc-Rl-Lan"/>
+                        <outlet property="i3" destination="dWH-pO-uo9" id="Q90-fx-hge"/>
+                        <outlet property="i4" destination="REB-YJ-tK2" id="gFr-Aj-RGv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tqm-TP-X4J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1205,7 +1218,7 @@
                                 <rect key="frame" x="227" y="344" width="51" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="taxi"/>
+                                <buttonConfiguration key="configuration" style="plain" image="taxi" title=""/>
                                 <connections>
                                     <action selector="allButtonAction:" destination="WqM-k2-FFx" eventType="touchUpInside" id="UPe-aQ-FDj"/>
                                 </connections>
