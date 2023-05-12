@@ -10,4 +10,5 @@ import UIKit
 class CollectionViewCell4: UICollectionViewCell {
     
     @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var l1: UILabel!
 }

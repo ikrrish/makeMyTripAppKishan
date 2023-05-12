@@ -13,4 +13,8 @@ class Error: UIViewController {
         super.viewDidLoad()
 
     }
+    @IBAction func back(_ sender: Any) {
+        let back = storyboard?.instantiateViewController(withIdentifier: "ViewController3") as! ViewController3
+        navigationController?.popToRootViewController(animated: true)
+    }
 }
