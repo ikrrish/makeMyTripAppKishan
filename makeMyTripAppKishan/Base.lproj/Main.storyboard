@@ -1012,10 +1012,10 @@
             </objects>
             <point key="canvasLocation" x="5434.7826086956529" y="69.642857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Profilepage-->
         <scene sceneID="2Ao-I9-dXl">
             <objects>
-                <viewController id="HEh-fe-3ta" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="profilepage" id="HEh-fe-3ta" customClass="profilepage" customModule="makeMyTripAppKishan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1jD-uJ-QrP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1045,14 +1045,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi Traveller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WU4-KH-VfN">
-                                <rect key="frame" x="90" y="59" width="153" height="30"/>
+                                <rect key="frame" x="123" y="59" width="153" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6352635256" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLB-Ee-z82">
-                                <rect key="frame" x="90" y="97" width="117" height="23"/>
+                                <rect key="frame" x="123" y="97" width="117" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -1061,8 +1061,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCV-gD-Ep2">
                                 <rect key="frame" x="52" y="169" width="51" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="car"/>
+                                <buttonConfiguration key="configuration" style="plain" image="user"/>
                                 <connections>
                                     <action selector="allButtonAction:" destination="WqM-k2-FFx" eventType="touchUpInside" id="7Rj-L9-R9d"/>
                                 </connections>
@@ -1084,8 +1085,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsz-h6-c3d">
                                 <rect key="frame" x="306" y="169" width="51" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="car"/>
+                                <buttonConfiguration key="configuration" style="plain" image="notification"/>
                                 <connections>
                                     <action selector="allButtonAction:" destination="WqM-k2-FFx" eventType="touchUpInside" id="88V-ff-yvb"/>
                                 </connections>
@@ -1100,16 +1102,70 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTo-W8-tId">
                                 <rect key="frame" x="182" y="169" width="51" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="car"/>
+                                <buttonConfiguration key="configuration" style="plain" image="call-center"/>
                                 <connections>
                                     <action selector="allButtonAction:" destination="WqM-k2-FFx" eventType="touchUpInside" id="xIR-QH-swe"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5im-MT-izl">
+                                <rect key="frame" x="29" y="51" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MY TRIPS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oA3-YF-zDX">
+                                <rect key="frame" x="28" y="288" width="153" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cZ-Ur-rnB">
+                                <rect key="frame" x="29" y="367" width="358" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="heart" title="  Wishlist                                              &gt;">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="holidayButtonAction:" destination="WqM-k2-FFx" eventType="touchUpInside" id="bjl-UW-Knl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25l-8L-OXn">
+                                <rect key="frame" x="29" y="451" width="358" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="coupons" title="  Coupon Lounge                                &gt;">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="holidayButtonAction:" destination="WqM-k2-FFx" eventType="touchUpInside" id="ILD-OB-gSD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oH7-Zt-eel">
+                                <rect key="frame" x="29" y="319" width="358" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="portfolio" title="  View/Manage Trips                           &gt;">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="holidayButtonAction:" destination="WqM-k2-FFx" eventType="touchUpInside" id="IWY-bB-kj4"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Dhr-qK-2hl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="b1" destination="eCV-gD-Ep2" id="6kv-PL-yaS"/>
+                        <outlet property="b2" destination="RTo-W8-tId" id="qf1-t7-mQz"/>
+                        <outlet property="b3" destination="hsz-h6-c3d" id="7CA-GZ-aYh"/>
+                        <outlet property="profileImage" destination="5im-MT-izl" id="REW-M8-rZj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oFR-B2-spB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1946,9 +2002,11 @@
         <image name="attention" width="512" height="512"/>
         <image name="c019f2454335c475411b3848f99b7229" width="450" height="900"/>
         <image name="calendar" width="32" height="32"/>
+        <image name="call-center" width="32" height="32"/>
         <image name="car" width="32" height="32"/>
         <image name="coding" width="512" height="512"/>
         <image name="couple" width="32" height="32"/>
+        <image name="coupons" width="24" height="24"/>
         <image name="download (4)" width="275" height="183"/>
         <image name="exchange" width="32" height="32"/>
         <image name="family" width="32" height="32"/>
@@ -1956,6 +2014,7 @@
         <image name="friends" width="32" height="32"/>
         <image name="gift-card" width="32" height="32"/>
         <image name="google" width="24" height="24"/>
+        <image name="heart" width="24" height="24"/>
         <image name="hotel" width="32" height="32"/>
         <image name="images (5)" width="329" height="153"/>
         <image name="images (6)" width="259" height="194"/>
@@ -1963,17 +2022,20 @@
         <image name="insurance (1)" width="32" height="32"/>
         <image name="istockphoto-1325195247-170667a" width="544" height="317"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="notification" width="32" height="32"/>
         <image name="number-2" width="32" height="32"/>
         <image name="number-3" width="32" height="32"/>
         <image name="number-one" width="32" height="32"/>
         <image name="park" width="32" height="32"/>
         <image name="pay" width="32" height="32"/>
         <image name="photo-1465146344425-f00d5f5c8f07" width="500" height="331"/>
+        <image name="portfolio" width="24" height="24"/>
         <image name="public-transport" width="32" height="32"/>
         <image name="summer-holidays" width="32" height="32"/>
         <image name="taxi" width="32" height="32"/>
         <image name="train-ticket" width="32" height="32"/>
         <image name="travelling" width="32" height="32"/>
+        <image name="user" width="32" height="32"/>
         <image name="villa" width="32" height="32"/>
         <image name="world (1)" width="32" height="32"/>
         <image name="worldwide" width="32" height="32"/>
