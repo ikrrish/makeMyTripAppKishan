@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController3: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+class item: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     
     var array1 = ["Trending", "Bank Offer", "Flights", "Hotels", "Rails"]
@@ -80,11 +80,15 @@ class ViewController3: UIViewController, UICollectionViewDelegate, UICollectionV
         navigationController?.pushViewController(navigate, animated: true)
     }
     func back(){
-        let back = storyboard?.instantiateViewController(withIdentifier: "ViewController3") as! ViewController3
+        let back = storyboard?.instantiateViewController(withIdentifier: "item") as! item
         navigationController?.popToRootViewController(animated: true)
     }
     @IBAction func allButtonAction(_ sender: Any) {
         let navigate = storyboard?.instantiateViewController(withIdentifier: "Error") as! Error
+        navigationController?.pushViewController(navigate, animated: true)
+    }
+    @IBAction func barButtonAction(_ sender: Any) {
+        let navigate = storyboard?.instantiateViewController(withIdentifier: "profilepage") as! profilepage
         navigationController?.pushViewController(navigate, animated: true)
     }
 }

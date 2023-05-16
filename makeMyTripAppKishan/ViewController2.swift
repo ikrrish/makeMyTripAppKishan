@@ -23,9 +23,12 @@ class ViewController2: UIViewController {
         continueButton.layer.masksToBounds = true
     }
     @IBAction func continueButtonAction(_ sender: Any) {
-        navigate()
+        
+        let navigate = storyboard?.instantiateViewController(withIdentifier: "setup") as! setup
+        navigationController?.pushViewController(navigate, animated: true)
     }
-    func navigate(){
+   
+    @IBAction func signinButtonAction(_ sender: Any) {
         let navigate = storyboard?.instantiateViewController(withIdentifier: "tabbar") as! tabbar
         navigationController?.pushViewController(navigate, animated: true)
     }

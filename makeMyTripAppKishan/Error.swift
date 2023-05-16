@@ -14,7 +14,7 @@ class Error: UIViewController {
 
     }
     @IBAction func back(_ sender: Any) {
-        let back = storyboard?.instantiateViewController(withIdentifier: "ViewController3") as! ViewController3
+        let back = storyboard?.instantiateViewController(withIdentifier: "item") as! item
         navigationController?.popToRootViewController(animated: true)
     }
 }

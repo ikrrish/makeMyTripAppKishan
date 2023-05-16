@@ -11,6 +11,7 @@
 		D312339B2A0434D300705BCC /* tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D312339A2A0434D300705BCC /* tabbar.swift */; };
 		D334B5AC29F073F50087F9B0 /* TripMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = D334B5AB29F073F50087F9B0 /* TripMoney.swift */; };
 		D334B5AE29F0742F0087F9B0 /* CollectionViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D334B5AD29F0742F0087F9B0 /* CollectionViewCell3.swift */; };
+		D341438E2A134614005324A2 /* setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D341438D2A134614005324A2 /* setup.swift */; };
 		D34713372A02D82600C78854 /* CollectionViewCell4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34713362A02D82600C78854 /* CollectionViewCell4.swift */; };
 		D34713392A02DF6900C78854 /* CollectionViewCell5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34713382A02DF6900C78854 /* CollectionViewCell5.swift */; };
 		D34C8E172A11F86300565B19 /* profilepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34C8E162A11F86300565B19 /* profilepage.swift */; };
@@ -21,7 +22,7 @@
 		D371FD4229E7D68200F65583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D371FD4129E7D68200F65583 /* Assets.xcassets */; };
 		D371FD4529E7D68200F65583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D371FD4329E7D68200F65583 /* LaunchScreen.storyboard */; };
 		D37646E729E920530024A7B9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37646E629E920530024A7B9 /* ViewController2.swift */; };
-		D37646E929E929660024A7B9 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37646E829E929660024A7B9 /* ViewController3.swift */; };
+		D37646E929E929660024A7B9 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37646E829E929660024A7B9 /* item.swift */; };
 		D38F0D9429F3003A00EF6E0F /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F0D9329F3003A00EF6E0F /* Error.swift */; };
 		D38F0D9629F3033F00EF6E0F /* Trips.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F0D9529F3033F00EF6E0F /* Trips.swift */; };
 		D3AADA6229EDC2AC00D3522E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AADA6129EDC2AC00D3522E /* CollectionViewCell.swift */; };
@@ -36,6 +37,7 @@
 		D312339A2A0434D300705BCC /* tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbar.swift; sourceTree = "<group>"; };
 		D334B5AB29F073F50087F9B0 /* TripMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMoney.swift; sourceTree = "<group>"; };
 		D334B5AD29F0742F0087F9B0 /* CollectionViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3.swift; sourceTree = "<group>"; };
+		D341438D2A134614005324A2 /* setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setup.swift; sourceTree = "<group>"; };
 		D34713362A02D82600C78854 /* CollectionViewCell4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell4.swift; sourceTree = "<group>"; };
 		D34713382A02DF6900C78854 /* CollectionViewCell5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell5.swift; sourceTree = "<group>"; };
 		D34C8E162A11F86300565B19 /* profilepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilepage.swift; sourceTree = "<group>"; };
@@ -48,7 +50,7 @@
 		D371FD4429E7D68200F65583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D371FD4629E7D68200F65583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D37646E629E920530024A7B9 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		D37646E829E929660024A7B9 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		D37646E829E929660024A7B9 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
 		D38F0D9329F3003A00EF6E0F /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		D38F0D9529F3033F00EF6E0F /* Trips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trips.swift; sourceTree = "<group>"; };
 		D3AADA6129EDC2AC00D3522E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				D371FD3A29E7D68000F65583 /* SceneDelegate.swift */,
 				D371FD3C29E7D68000F65583 /* ViewController.swift */,
 				D371FD3E29E7D68000F65583 /* Main.storyboard */,
+				D341438D2A134614005324A2 /* setup.swift */,
 				D34C8E162A11F86300565B19 /* profilepage.swift */,
 				D3F8C2F42A0EC1360091D0EF /* hotels.swift */,
 				D3F8C2F22A0EBEA60091D0EF /* holidays.swift */,
@@ -106,7 +109,7 @@
 				D3AADA6329EDD23400D3522E /* CollectionViewCell2.swift */,
 				D3AADA6129EDC2AC00D3522E /* CollectionViewCell.swift */,
 				D34713362A02D82600C78854 /* CollectionViewCell4.swift */,
-				D37646E829E929660024A7B9 /* ViewController3.swift */,
+				D37646E829E929660024A7B9 /* item.swift */,
 				D37646E629E920530024A7B9 /* ViewController2.swift */,
 				D371FD4129E7D68200F65583 /* Assets.xcassets */,
 				D371FD4329E7D68200F65583 /* LaunchScreen.storyboard */,
@@ -187,8 +190,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34713392A02DF6900C78854 /* CollectionViewCell5.swift in Sources */,
-				D37646E929E929660024A7B9 /* ViewController3.swift in Sources */,
+				D37646E929E929660024A7B9 /* item.swift in Sources */,
 				D334B5AC29F073F50087F9B0 /* TripMoney.swift in Sources */,
+				D341438E2A134614005324A2 /* setup.swift in Sources */,
 				D312339B2A0434D300705BCC /* tabbar.swift in Sources */,
 				D3F8C2F32A0EBEA60091D0EF /* holidays.swift in Sources */,
 				D31233992A04332B00705BCC /* host.swift in Sources */,
