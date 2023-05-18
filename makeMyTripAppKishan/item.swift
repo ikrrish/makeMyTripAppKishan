@@ -91,4 +91,8 @@ class item: UIViewController, UICollectionViewDelegate, UICollectionViewDataSour
         let navigate = storyboard?.instantiateViewController(withIdentifier: "profilepage") as! profilepage
         navigationController?.pushViewController(navigate, animated: true)
     }
+    @IBAction func slider(_ sender: Any) {
+        let navigate = storyboard?.instantiateViewController(withIdentifier: "slidebar") as! slidebar
+        navigationController?.pushViewController(navigate, animated: true)
+    }
 }
