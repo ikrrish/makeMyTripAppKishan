@@ -10,6 +10,8 @@ import UIKit
 class item: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     
+    @IBOutlet var backView: UIView!
+    @IBOutlet weak var realView: UIView!
     var array1 = ["Trending", "Bank Offer", "Flights", "Hotels", "Rails"]
     var array2 = [1,2,3,4,5]
     @IBOutlet weak var i1: UIImageView!
@@ -18,6 +20,7 @@ class item: UIViewController, UICollectionViewDelegate, UICollectionViewDataSour
     @IBOutlet weak var cv2: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        realView.isHidden = true
         setup()
     }
     func setup(){
@@ -25,6 +28,7 @@ class item: UIViewController, UICollectionViewDelegate, UICollectionViewDataSour
         i1.layer.masksToBounds = true
         i2.layer.cornerRadius = 10
         i2.layer.masksToBounds = true
+        
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return array1.count
@@ -88,11 +92,10 @@ class item: UIViewController, UICollectionViewDelegate, UICollectionViewDataSour
         navigationController?.pushViewController(navigate, animated: true)
     }
     @IBAction func barButtonAction(_ sender: Any) {
-        let navigate = storyboard?.instantiateViewController(withIdentifier: "profilepage") as! profilepage
-        navigationController?.pushViewController(navigate, animated: true)
+        realView.isHidden = false
     }
-    @IBAction func slider(_ sender: Any) {
-        let navigate = storyboard?.instantiateViewController(withIdentifier: "slidebar") as! slidebar
-        navigationController?.pushViewController(navigate, animated: true)
+    
+    @IBAction func tapOnMainViewAction(_ sender: Any) {
+        self.realView.isHidden = true
     }
 }
