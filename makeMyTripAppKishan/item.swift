@@ -20,7 +20,7 @@ class item: UIViewController, UICollectionViewDelegate, UICollectionViewDataSour
     @IBOutlet weak var cv2: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        realView.isHidden = true
+        self.realView.isHidden = true
         setup()
     }
     func setup(){
@@ -92,7 +92,8 @@ class item: UIViewController, UICollectionViewDelegate, UICollectionViewDataSour
         navigationController?.pushViewController(navigate, animated: true)
     }
     @IBAction func barButtonAction(_ sender: Any) {
-        realView.isHidden = false
+        self.realView.isHidden = false
+        
     }
     
     @IBAction func tapOnMainViewAction(_ sender: Any) {

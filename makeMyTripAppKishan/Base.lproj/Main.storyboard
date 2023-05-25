@@ -13,7 +13,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="makeMyTripAppKishan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -1090,6 +1090,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="BOOK HOTEL">
                                     <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="22"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="bookAction:" destination="yp3-u9-vgB" eventType="touchUpInside" id="Kql-8u-IwE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tLb-mg-N0j"/>
@@ -1807,9 +1810,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LvJ-Vs-HpC">
+                            <containerView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LvJ-Vs-HpC">
                                 <rect key="frame" x="0.0" y="0.0" width="341" height="896"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="tAx-WM-x5a" kind="embed" id="NWD-91-ut2"/>
                                 </connections>
@@ -1818,6 +1820,10 @@
                         <viewLayoutGuide key="safeArea" id="023-0R-Sut"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="LvJ-Vs-HpC" firstAttribute="bottom" secondItem="023-0R-Sut" secondAttribute="bottom" constant="83" id="I7Q-1y-PM5"/>
+                            <constraint firstItem="023-0R-Sut" firstAttribute="top" secondItem="LvJ-Vs-HpC" secondAttribute="top" constant="44" id="KeT-sD-exl"/>
+                        </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="9I8-rw-Gzd" appends="YES" id="7q6-Tu-3Hz"/>
                         </connections>
@@ -2188,12 +2194,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gDq-dR-SMa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6383" y="-2879"/>
+            <point key="canvasLocation" x="6302" y="-2878"/>
         </scene>
-        <!--View Controller-->
+        <!--Tripbook-->
         <scene sceneID="vCQ-wr-JYS">
             <objects>
-                <viewController id="Phd-Kg-dcP" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="tripbook" id="Phd-Kg-dcP" customClass="tripbook" customModule="makeMyTripAppKishan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FxS-eo-vzq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2341,7 +2347,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lgl-Qa-6rj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7040.579710144928" y="-2875.4464285714284"/>
+            <point key="canvasLocation" x="7041" y="-2878"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mjY-kx-6tl">

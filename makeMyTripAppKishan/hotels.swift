@@ -19,5 +19,9 @@ class hotels: UIViewController {
         navigationController?.popToRootViewController(animated: true)
     }
     
-
+    @IBAction func bookAction(_ sender: Any) {
+        let back = storyboard?.instantiateViewController(withIdentifier: "tripbook") as! tripbook
+        navigationController?.popToRootViewController(animated: true)
+    }
+    
 }

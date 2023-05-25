@@ -28,6 +28,7 @@
 		D3AADA6229EDC2AC00D3522E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AADA6129EDC2AC00D3522E /* CollectionViewCell.swift */; };
 		D3AADA6429EDD23400D3522E /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AADA6329EDD23400D3522E /* CollectionViewCell2.swift */; };
 		D3AB158A29FA55660083DC9B /* wheretogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB158929FA55660083DC9B /* wheretogo.swift */; };
+		D3CF24F92A1EE383004914A0 /* tripbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CF24F82A1EE383004914A0 /* tripbook.swift */; };
 		D3F8C2F32A0EBEA60091D0EF /* holidays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F8C2F22A0EBEA60091D0EF /* holidays.swift */; };
 		D3F8C2F52A0EC1360091D0EF /* hotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F8C2F42A0EC1360091D0EF /* hotels.swift */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		D3AADA6129EDC2AC00D3522E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		D3AADA6329EDD23400D3522E /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
 		D3AB158929FA55660083DC9B /* wheretogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wheretogo.swift; sourceTree = "<group>"; };
+		D3CF24F82A1EE383004914A0 /* tripbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripbook.swift; sourceTree = "<group>"; };
 		D3F8C2F22A0EBEA60091D0EF /* holidays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holidays.swift; sourceTree = "<group>"; };
 		D3F8C2F42A0EC1360091D0EF /* hotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 				D371FD3A29E7D68000F65583 /* SceneDelegate.swift */,
 				D371FD3C29E7D68000F65583 /* ViewController.swift */,
 				D371FD3E29E7D68000F65583 /* Main.storyboard */,
+				D3CF24F82A1EE383004914A0 /* tripbook.swift */,
 				D385E40D2A1699ED00A5726E /* viewofslidebar.swift */,
 				D341438D2A134614005324A2 /* setup.swift */,
 				D3F8C2F42A0EC1360091D0EF /* hotels.swift */,
@@ -195,6 +198,7 @@
 				D341438E2A134614005324A2 /* setup.swift in Sources */,
 				D312339B2A0434D300705BCC /* tabbar.swift in Sources */,
 				D3F8C2F32A0EBEA60091D0EF /* holidays.swift in Sources */,
+				D3CF24F92A1EE383004914A0 /* tripbook.swift in Sources */,
 				D31233992A04332B00705BCC /* host.swift in Sources */,
 				D371FD3D29E7D68000F65583 /* ViewController.swift in Sources */,
 				D3AADA6229EDC2AC00D3522E /* CollectionViewCell.swift in Sources */,
