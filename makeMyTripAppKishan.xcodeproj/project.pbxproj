@@ -29,6 +29,8 @@
 		D3AADA6429EDD23400D3522E /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AADA6329EDD23400D3522E /* CollectionViewCell2.swift */; };
 		D3AB158A29FA55660083DC9B /* wheretogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB158929FA55660083DC9B /* wheretogo.swift */; };
 		D3CF24F92A1EE383004914A0 /* tripbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CF24F82A1EE383004914A0 /* tripbook.swift */; };
+		D3ED1C142A2716A5008DCF0D /* destinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED1C132A2716A5008DCF0D /* destinations.swift */; };
+		D3ED1C162A271720008DCF0D /* cvForDestinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED1C152A271720008DCF0D /* cvForDestinations.swift */; };
 		D3F8C2F32A0EBEA60091D0EF /* holidays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F8C2F22A0EBEA60091D0EF /* holidays.swift */; };
 		D3F8C2F52A0EC1360091D0EF /* hotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F8C2F42A0EC1360091D0EF /* hotels.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,8 @@
 		D3AADA6329EDD23400D3522E /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
 		D3AB158929FA55660083DC9B /* wheretogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wheretogo.swift; sourceTree = "<group>"; };
 		D3CF24F82A1EE383004914A0 /* tripbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripbook.swift; sourceTree = "<group>"; };
+		D3ED1C132A2716A5008DCF0D /* destinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destinations.swift; sourceTree = "<group>"; };
+		D3ED1C152A271720008DCF0D /* cvForDestinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cvForDestinations.swift; sourceTree = "<group>"; };
 		D3F8C2F22A0EBEA60091D0EF /* holidays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holidays.swift; sourceTree = "<group>"; };
 		D3F8C2F42A0EC1360091D0EF /* hotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +100,8 @@
 				D371FD3A29E7D68000F65583 /* SceneDelegate.swift */,
 				D371FD3C29E7D68000F65583 /* ViewController.swift */,
 				D371FD3E29E7D68000F65583 /* Main.storyboard */,
+				D3ED1C152A271720008DCF0D /* cvForDestinations.swift */,
+				D3ED1C132A2716A5008DCF0D /* destinations.swift */,
 				D3CF24F82A1EE383004914A0 /* tripbook.swift */,
 				D385E40D2A1699ED00A5726E /* viewofslidebar.swift */,
 				D341438D2A134614005324A2 /* setup.swift */,
@@ -192,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3ED1C142A2716A5008DCF0D /* destinations.swift in Sources */,
 				D34713392A02DF6900C78854 /* CollectionViewCell5.swift in Sources */,
 				D37646E929E929660024A7B9 /* item.swift in Sources */,
 				D334B5AC29F073F50087F9B0 /* TripMoney.swift in Sources */,
@@ -201,6 +208,7 @@
 				D3CF24F92A1EE383004914A0 /* tripbook.swift in Sources */,
 				D31233992A04332B00705BCC /* host.swift in Sources */,
 				D371FD3D29E7D68000F65583 /* ViewController.swift in Sources */,
+				D3ED1C162A271720008DCF0D /* cvForDestinations.swift in Sources */,
 				D3AADA6229EDC2AC00D3522E /* CollectionViewCell.swift in Sources */,
 				D38F0D9629F3033F00EF6E0F /* Trips.swift in Sources */,
 				D334B5AE29F0742F0087F9B0 /* CollectionViewCell3.swift in Sources */,
